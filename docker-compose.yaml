@@ -1,0 +1,9 @@
+services:
+ postgres:
+  image: postgres:13.3
+  environment:
+    POSTGRES_DB: "user_db"
+    POSTGRES_USER: "user_svc"
+    POSTGRES_PASSWORD: "user_pass"
+  ports:
+    - "5432:5432"
