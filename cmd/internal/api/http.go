@@ -57,7 +57,7 @@ func New(app application) *bot.Bot {
 		//bot.WithCallbackQueryDataHandler("", bot.MatchTypePrefix, api.callbackHandler),
 	}
 
-	b, err := bot.New("7129020105:AAF-uK6OWYBI2p-jkbd8yotY7uOhPAqJdDg", opts...)
+	b, err := bot.New("", opts...)
 	if nil != err {
 		panic(err)
 	}
